@@ -64,7 +64,7 @@ app.delete("/app/delete/user/:id", (req, res) => {
     .status(200)
     .json({
       message:
-        to_delete.changes + " record deleted: ID " + req.params.id + " (200)",
+        info.changes + " record deleted: ID " + req.params.id + " (200)",
     });
 });
 // Default response for any other request
